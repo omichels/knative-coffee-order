@@ -12,9 +12,9 @@ docker.io/olivermichelsbechtle/coffee-order:v2
 
 once correctly deployed you can use curl to interact with the REST API of the shop
 
-´´´
+```bash
  curl -s -H "Host: coffee-order.default.example.com" 172.19.0.3/menu | jq .
-´´´
+```
 
 http routes available:
 
