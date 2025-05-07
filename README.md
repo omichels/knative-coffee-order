@@ -2,12 +2,11 @@
 
 the docker image for the coffee-order shop is available from public docker hub
 
-
-docker.io/olivermichelsbechtle/coffee-order:v1
+- docker.io/olivermichelsbechtle/coffee-order:v1
 
 and
 
-docker.io/olivermichelsbechtle/coffee-order:v2
+- docker.io/olivermichelsbechtle/coffee-order:v2
 
 
 once correctly deployed you can use curl to interact with the REST API of the shop
@@ -18,10 +17,10 @@ once correctly deployed you can use curl to interact with the REST API of the sh
 
 http routes available:
 
-/menu GET
-/orders POST
-/orders GET
-/orders/{id} GET
-/orders/{id} PUT
-/orders/{id} DELETE
+- /menu GET
+- /orders POST
+- /orders GET
+- /orders/{id} GET
+- /orders/{id} PUT
+- /orders/{id} DELETE
 
